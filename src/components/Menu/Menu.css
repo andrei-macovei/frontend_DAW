@@ -1,0 +1,19 @@
+.menu li {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 150px;
+    text-align: center;
+    list-style-type: none;
+    height: 2rem;
+    float: left;
+    font-weight: bolder;
+  }
+  .menu {
+    height: 2rem;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-bottom: 2em;
+  }
