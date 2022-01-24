@@ -9,6 +9,7 @@ import Menu from '../Menu/Menu';
 import Profile from '../Profile/Profile'
 import Products from '../Products/Products'
 import Register from '../Register/Register'
+import Home from '../Home/Home';
 
 function App() {
   const [token, setToken] = useState();
@@ -19,7 +20,9 @@ function App() {
 
   return (
     <div className="wrapper">
-      <h1>Application Home Page</h1>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Roboto"></link>
+      <h1>MacoMobility<span class="fas fa-bolt"></span></h1>
       
       <BrowserRouter>
         <Menu />
@@ -41,6 +44,9 @@ function App() {
           </Route>
           <Route path="/register">
             <Register />
+          </Route>
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
       </BrowserRouter>

@@ -6,19 +6,19 @@ export default function Menu() {
   return(
     <nav>
         <ul className='menu'>
-          <li>
-            <Link to="/">Home</Link>
+          <li className='left'>
+            <Link to="/"><span class="fas fa-home"></span>Home</Link>
           </li>
-          <li>
+          <li className='left'>
             <Link to="/products">Products</Link>
           </li>
-          <li>
+          <li className='left'>
             <Link to="/profile">Profile</Link>
           </li>
-          <li>
+          <li className='right'>
             <Link to="/login">Login</Link>
           </li>
-          <li>
+          <li className='right'>
             <Link to="/register">Register</Link>
           </li>
         </ul>

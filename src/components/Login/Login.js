@@ -28,7 +28,7 @@ export default function Login({ setToken }) {
 
   return(
     <div className="login-wrapper">
-      <h1>Please Log In</h1>
+      <h2>Please Log In</h2>
       <form onSubmit={handleSubmit}>
         <label>
           <p>Username</p>

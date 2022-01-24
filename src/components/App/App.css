@@ -1,3 +1,9 @@
 .wrapper {
   padding: 20px;
 }
+h1 {
+  font-family: Lobster;
+  -webkit-text-decoration: underline #E6974B;
+          text-decoration: underline #E6974B;
+  width: 100%;
+}

@@ -5,9 +5,25 @@
     text-align: center;
     list-style-type: none;
     height: 2rem;
-    float: left;
+    /* float: left; */
     font-weight: bolder;
   }
+
+.menu li:hover a{
+  color: #F26544;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: block;
+  background-color: #E6974B;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
   .menu {
     height: 2rem;
     z-index: 1;
@@ -16,4 +32,21 @@
     top: 0;
     left: 0;
     padding-bottom: 2em;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    background-color: #E6974B;
   }
+
+
+.left{
+  float: left;
+}
+
+.right{
+    float: right;
+  }
+
+nav{
+  background-color: #E6974B;
+}
